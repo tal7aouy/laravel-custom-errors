@@ -8,6 +8,13 @@ This Package makes it easy to display custom error pages for various HTTP status
 composer require tal7aouy/errors
 ```
 
+✅ Usage:
+
+This package is very generic and simply publishes some files to your Laravel app.
+```sh
+ php artisan vendor:publish
+```
+![usage](./screen.png)
 ## License
 
 [MIT © License](LICENSE)
