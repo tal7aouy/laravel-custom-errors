@@ -1,0 +1,38 @@
+{
+  "name": "tal7aouy/errors",
+  "description": "Error pages for the Laravel Framework using Tailwind.css",
+  "license": "MIT",
+  "homepage": "https://github.com/tal7aouy/errors#readme",
+  "support": {
+    "issues": "https://github.com/tal7aouy/errors/issues",
+    "source": "https://github.com/tal7aouy/errors"
+  },
+  "authors": [
+    {
+      "name": "Mhammed Talhaouy",
+      "email": "tal7aouy@gmail.com",
+      "role": "PHP Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0.2",
+    "laravel/framework": ">=8.65"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tal7aouy\\Errors\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tal7aouy\\Errors\\ErrorsServiceProvider"
+      ]
+    },
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
